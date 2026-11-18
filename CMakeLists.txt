@@ -31,5 +31,9 @@ target_link_libraries(sequence_exporter_test hightlevelseq)
 add_executable(sequence_main app/sequence_main.cpp)
 target_link_libraries(sequence_main hightlevelseq)
 
+# Async Multi-Instance Steps Example Executable
+add_executable(async_steps_test app/example_async_steps.cpp)
+target_link_libraries(async_steps_test hightlevelseq)
+
 message(STATUS "Build type: ${CMAKE_BUILD_TYPE}")
 message(STATUS "C++ Standard: ${CMAKE_CXX_STANDARD}")
