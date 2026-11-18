@@ -1,0 +1,5 @@
+# Fichiers Markdown
+*.md
+
+# Dossier de build (CMake / Visual Studio)
+build/

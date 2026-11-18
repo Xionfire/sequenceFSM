@@ -1,0 +1,16 @@
+{
+  "steps": [
+    {
+      "name": "initialize",
+      "type": "STANDARD"
+    },
+    {
+      "name": "process",
+      "type": "CUSTOM"
+    },
+    {
+      "name": "finalize",
+      "type": "STANDARD"
+    }
+  ]
+}

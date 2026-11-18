@@ -1,0 +1,28 @@
+{
+  "sequence": {
+    "step_count": 3,
+    "steps": [
+      {
+        "id": 0,
+        "name": "initialize",
+        "tag_type": "STANDARD",
+        "tag_value": "",
+        "description": "Step: initialize | Tag: STANDARD"
+      },
+      {
+        "id": 1,
+        "name": "process",
+        "tag_type": "CUSTOM",
+        "tag_value": "device_processing",
+        "description": "Step: process | Tag: CUSTOM(device_processing)"
+      },
+      {
+        "id": 2,
+        "name": "finalize",
+        "tag_type": "STANDARD",
+        "tag_value": "",
+        "description": "Step: finalize | Tag: STANDARD"
+      }
+    ]
+  }
+}
